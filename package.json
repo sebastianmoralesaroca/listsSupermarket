@@ -1,0 +1,22 @@
+{
+  "name": "listssupermarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianmoralesaroca/listsSupermarket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianmoralesaroca/listsSupermarket/issues"
+  },
+  "homepage": "https://github.com/sebastianmoralesaroca/listsSupermarket#readme",
+  "dependencies": {
+    "sass": "^1.59.3"
+  }
+}
