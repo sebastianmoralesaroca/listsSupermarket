@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contPrinsipal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 80%;
+  grid-template-columns: 20% 80%;
+}
+.contPrinsipal .menuNavigation .logo {
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin-left: 45px;
+  margin-top: 35px;
+  margin-right: 15px;
+}
+.contPrinsipal .menuNavigation .titleNav {
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  display: inline;
+}
+.contPrinsipal .menuNavigation .menuUl {
+  margin-top: 50px;
+  margin-left: -13px;
+  width: 80%;
+}
+.contPrinsipal .menuNavigation .menuUl .menuLi {
+  list-style-type: none;
+}
+.contPrinsipal .menuNavigation .menuUl .menuLi .btnLi {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: blue;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+  padding-left: 60px;
+}
+.contPrinsipal .menuNavigation .menuUl .menuLi .btnLi .imgBtnLi {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.contPrinsipal .menuNavigation .contDownload {
+  text-align: center;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+.contPrinsipal .menuNavigation .contDownload .titleDownload {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.contPrinsipal .menuNavigation .contDownload .textDownload {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+}
+.contPrinsipal .menuNavigation .contDownload .btnDownload {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.contPrinsipal .menuNavigation .contDownload .btnDownload .btnImgDownload {
+  width: 19px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+.main {
+  background-color: whitesmoke;
+}
+.main .mainImg {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+.main .logoMain {
+  width: 90px;
+  height: 90px;
+  background-color: whitesmoke;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: -55px;
+  padding: 10px;
+  border-radius: 45px;
+}
+.main .containerMain {
+  margin-left: 50px;
+  width: 1000px;
+}
+.main .containerMain .titleMain {
+  font-family: cursive;
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+.main .containerMain .inputList {
+  width: 400px;
+  height: 48px;
+  display: inline;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 5px;
+}
+.main .containerMain .addElementList {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  width: 250px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  display: inline;
+}
+.main .containerMain .addElementList .imgBtnAddElement {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.main .containerMain .spanbtn {
+  display: block;
+  height: 13px;
+}
+.main .containerMain .elementList1 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+  margin-left: 0px;
+}
+.main .containerMain .elementList1 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elemtntList2 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elemtntList2 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elemtntList3 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elemtntList3 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elemtntList4 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elemtntList4 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elemtntList5 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elemtntList5 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elemtntList6 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elemtntList6 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}
+.main .containerMain .elementList7 {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: grey;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px 10px 10px;
+  margin: 0px 7px 0px 10px;
+}
+.main .containerMain .elementList7 .imgElementList {
+  margin: 0px 8px 0px 8px;
+}

@@ -1,0 +1,91 @@
+.main {
+    background-color: whitesmoke;
+
+    .mainImg {
+        object-fit: cover;
+        width: 100% ;
+        height: 100px;
+    }
+
+    .logoMain {
+        width: 90px ;
+        height: 90px ;
+        background-color:whitesmoke ;
+        display: inline-block ;
+        margin-left: 40% ;
+        margin-top: -55px ;
+        padding: 10px ;
+        border-radius: 45px;
+
+    }
+    .containerMain {
+        margin-left: 50px ;
+        width: 1000px;
+
+        .titleMain {
+            font-family: cursive ;
+            font-size: 27px ;
+            font-weight: bold ;
+            color: black ;
+            margin-top: 10px ;
+        }
+
+        .inputList {
+            width: 400px ;
+            height: 48px ;
+            display: inline ;
+            background-color: white ;
+            border: solid 1px black ;
+            border-radius: 5px ;
+        }
+
+        .addElementList {
+            font-family: sans-serif ;
+            font-size: 15px ;
+            font-weight: 400 ;
+            color: white ;
+            background-color: blue;
+            border: none;
+            border-radius: 5px ;
+            width: 250px ;
+            padding-top: 17px ;
+            padding-bottom: 17px ;
+            display: inline ;
+
+            .imgBtnAddElement {
+                width: 15px ;
+                height: 15px ;
+                vertical-align: middle;
+                margin-right: 5px ;
+            }
+
+        }
+
+        .spanbtn {
+            display: block;
+            height: 13px ;
+        }
+        .elementList1 {
+            @include btnList ;
+            margin-left: 0px ;
+        }
+        .elemtntList2 {
+            @include btnList ;
+        }
+        .elemtntList3 {
+            @include btnList ;
+        }
+        .elemtntList4 {
+            @include btnList ;
+        }
+        .elemtntList5 {
+            @include btnList ;
+        }
+        .elemtntList6 {
+            @include btnList ;
+        }
+        .elementList7 {
+            @include btnList ;
+        }
+    }
+}
