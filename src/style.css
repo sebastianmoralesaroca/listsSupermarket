@@ -156,6 +156,29 @@ body {
   height: 50px;
   display: inline;
 }
+.main .containerMain .addElementList .addElementListImg {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.main .containerMain .deleteList {
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 17px;
+  width: 135px;
+}
+.main .containerMain .deleteList .deleteListImg {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
 .main .containerMain .textCountList1 {
   font-family: sans-serif;
   font-size: 14px;
