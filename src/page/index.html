@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<title>List Supermerket</title>
+</head>
+<body id="body">
+<div class="contPrinsipal">
+	<nav class="menuNavigation" id="menuNavigation">
+		<img class="logo" src="../../public/logito.png" alt="">
+		<h2 class="titleNav" id="titleNav">List Market</h2>
+		<ul class="menuUl">
+			<li class="menuLi"><button class="btnLi" id="btnLiSupermarket"><img src="../../public/supermarkert.png" alt="" class="imgBtnLi"> Super Market</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiNavidad"><img src="../../public/navidad.png" alt="" class="imgBtnLi"> Navidad</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiSchool"><img src="../../public/school.png" alt="" class="imgBtnLi"> School</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiOther"><img src="../../public/list.png" alt="" class="imgBtnLi"> Other List</button></li>
+		</ul>
+		<div class="contDownload" id="contDownload">
+			<img class="imgDownload" src="../../public/carritoDownload.png" alt="">
+			<h3 class="titleDownload" id="titleDownload">Download Your List</h3>
+			<p class="textDownload">Add and delete product your list of Supermarket and then download in your mobil</p>
+			<button class="btnDownload"><img class="btnImgDownload" src="../../public/download.png" alt="download"> Download List</button>
+		</div>
+	</nav>
+	<main class="main" id="main">
+		<img class="mainImg" src="../../public/imgSupermarket.jpg" alt="">
+		<img class="logoMain" id="logoMain" src="../../public/carritoDownload.png" alt="">
+		<div class="divMoodDark" id="divMoodDark" >
+			<button class="btnDay" id="btnDay"><img class="imgDay" src="../../public/sol.png" alt=""></button>
+			<button class="btnNight" id="btnNight"><img class="imgNight" src="../../public/modo-nocturno.png" alt=""></button>
+		</div>
+		<div class="containerMain" id="containerMain">
+			<h1 class="titleMain" id="titleMain">
+				<span class="titleMain1">Your List</span>
+				<span class="titleMain2" id="titleMain2">Supermarket</span>
+				<span class="titleMain3">Here</span>
+			</h1>
+			<input class="inputList" id="inputList" type="text" placeholder="  Add Element List">
+			<input class="numberList" id="numberList" type="number" placeholder="  Amount">
+			<button class="addElementList" id="addElementList" type="submit"><img class="addElementListImg" src="../../public/add.png" alt=""> Add Element List</button>
+			<button class="deleteList" id="deleteList"><img class="deleteListImg" src="../../public/trash.png" alt="">Delete Element</button>
+			<span class="spanbtn"></span>
+			<button class="elementList1" id="elementList1"><img class="imgElementList" src="../../public/fruits.png" alt="Fruits"> Fruits </button>
+			<button class="elemtntList2" id="elementList2"><img class="imgElementList" src="../../public/vegetables.png" alt="vegetales"> Vegetables</button>
+			<button class="elemtntList3" id="elementList3"><img class="imgElementList" src="../../public/dairy.png" alt="dairy"> Dairy</button>
+			<button class="elemtntList4" id="elementList4"><img class="imgElementList" src="../../public/bread.png" alt="Bread"> Bread</button>
+			<button class="elemtntList5" id="elementList5"><img class="imgElementList" src="../../public/sweets.png" alt="sweets"> Sweets</button>
+			<button class="elemtntList6" id="elementList6"><img class="imgElementList" src="../../public/meat.png" alt="meat"> Meat</button>
+			<button class="elementList7" id="elementList7"><img class="imgElementList" src="../../public/cleaning.png" alt="clearning">Clearning</button>
+			<p>
+				<span class="textCountList1">Your List count</span>
+				<span class="textCountList2" id="textCountList2">0</span>
+				<span class="textCountList1">Elements!</span>
+			</p>
+			<span id="contElement"></span>
+		</div>
+	</main>
+</div>
+<script src="../js/utilities.js"></script>
+<script src="../js/elementById.js"></script>
+<script src="../js/moodDark.js"></script>
+<script src="../js/list.js"></script>
+<script src="../js/menu.js"></script>
+</body>
+</html>

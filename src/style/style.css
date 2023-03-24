@@ -109,6 +109,40 @@ body {
   padding: 10px;
   border-radius: 45px;
 }
+.main .divMoodDark {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 54%;
+}
+.main .divMoodDark .btnDay {
+  width: 50px;
+  height: 37px;
+  border: none;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #3498db;
+}
+.main .divMoodDark .btnDay .imgDay {
+  width: 30px;
+  height: 30px;
+}
+.main .divMoodDark .btnDay:hover {
+  background-color: #37a4ee;
+}
+.main .divMoodDark .btnNight {
+  width: 50px;
+  height: 37px;
+  margin-left: -5px;
+  border: none;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #102F43;
+}
+.main .divMoodDark .btnNight .imgNight {
+  width: 30px;
+  height: 30px;
+}
+.main .divMoodDark .btnNight:hover {
+  background-color: #17425d;
+}
 .main .containerMain {
   margin-left: 50px;
   width: 1000px;
@@ -121,7 +155,7 @@ body {
   margin-top: 10px;
 }
 .main .containerMain .inputList {
-  width: 400px;
+  width: 320px;
   height: 47px;
   display: inline;
   font-family: sans-serif;
@@ -171,7 +205,7 @@ body {
   border: none;
   border-radius: 5px;
   padding: 17px;
-  width: 135px;
+  width: 180px;
 }
 .main .containerMain .deleteList .deleteListImg {
   width: 15px;
