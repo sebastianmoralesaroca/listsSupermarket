@@ -237,12 +237,12 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
   margin-left: 0px;
 }
 .main .containerMain .elementList1 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elemtntList2 {
   font-family: sans-serif;
@@ -252,11 +252,11 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elemtntList2 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elemtntList3 {
   font-family: sans-serif;
@@ -266,11 +266,11 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elemtntList3 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elemtntList4 {
   font-family: sans-serif;
@@ -280,11 +280,11 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elemtntList4 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elemtntList5 {
   font-family: sans-serif;
@@ -294,11 +294,11 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elemtntList5 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elemtntList6 {
   font-family: sans-serif;
@@ -308,11 +308,11 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elemtntList6 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }
 .main .containerMain .elementList7 {
   font-family: sans-serif;
@@ -322,9 +322,9 @@ body {
   background-color: white;
   border: none;
   border-radius: 25px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 15px 10px 15px;
   margin: 0px 7px 0px 10px;
 }
 .main .containerMain .elementList7 .imgElementList {
-  margin: 0px 8px 0px 8px;
+  margin-left: 5px;
 }

@@ -18,6 +18,7 @@ const elementList4 = document.getElementById("elementList4") ;
 const elementList5 = document.getElementById("elementList5") ;
 const elementList6 = document.getElementById("elementList6") ;
 const elementList7 = document.getElementById("elementList7") ;
+const mainImg = document.getElementById("mainImg") ;
 
 
 /*Mode Dark*/
@@ -35,3 +36,7 @@ const btnLiNavidad = document.getElementById("btnLiNavidad") ;
 const btnLiSchool = document.getElementById("btnLiSchool") ;
 const btnLiOther = document.getElementById("btnLiOther") ;
 const titleMain2 = document.getElementById("titleMain2") ;
+const imgDownload = document.getElementById("imgDownload") ;
+
+
+
