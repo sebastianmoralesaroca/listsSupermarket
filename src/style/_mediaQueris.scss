@@ -1,0 +1,94 @@
+$media-small-xs: 200px;
+$media-small: 575px;
+$media-medium: 990px;
+$media-tall: 1200px;
+
+// Media Tablet
+@media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
+    .contPrinsipal {
+        display: block ;
+        margin: auto;
+    }
+    .menuNavigation {
+        display: none ;
+    }
+    #divMoodDark {
+        margin-left: 76%;
+    }
+    .containerMain{
+        padding-bottom: 30px;
+
+        #inputList {
+            width: 45%;
+        }
+        #numberList {
+            width: 35%;
+        }
+        .spanAdd {
+            display: block;
+            height: 5px;
+        }
+        #addElementList {
+            width: 45.8%;
+        }
+        #deleteList {
+            width: 35.5%;
+        }
+    }
+}
+
+// Media Mobile Default
+@media screen and (max-width: $media-small) and (orientation:portrait) {
+    .contPrinsipal {
+        display: block ;
+        margin: auto;
+    }
+    .menuNavigation {
+        display: none ;
+    }
+    #divMoodDark {
+        display: none ;
+    }
+    #btnMenuBurger {
+        position: relative;
+    }
+    .mainImg {
+    }
+    .containerMain{
+        padding-bottom: 30px;
+        margin-left: 3%;
+        margin-right: 3%;
+
+        #inputList {
+            width: 48%;
+        }
+        #numberList {
+            width: 35%;
+        }
+        .spanAdd {
+            display: block;
+            height: 5px;
+        }
+        #addElementList {
+            width: 49%;
+        }
+        #deleteList {
+            width: 35.5%;
+        }
+    }
+    .elemtntList4 {
+        display: none;
+    }
+    .elemtntList5 {
+        display: none ;
+    }
+    .elemtntList6 {
+        display: none ;
+    }
+    .elementList7 {
+        display: none ;
+    }
+    .titleMain3 {
+        display: none ;
+    }
+}

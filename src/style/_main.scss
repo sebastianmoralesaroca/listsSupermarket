@@ -1,10 +1,16 @@
 .main {
     background-color: whitesmoke;
+    width: 100%;
+
+    .btnMenuBurger {
+        position: absolute;
+    }
 
     .mainImg {
         object-fit: cover;
         width: 100% ;
         height: 100px;
+        position: relative;
     }
 
     .logoMain {
@@ -16,50 +22,16 @@
         margin-top: -55px ;
         padding: 10px ;
         border-radius: 45px;
+        position: relative ;
     }
 
     .divMoodDark {
-        position: absolute ;
-        margin-top: -60px ;
-        margin-left: 54% ;
-
-        .btnDay{
-            width: 50px;
-            height: 37px;
-            border: none;
-            border-radius: 15px 0px 0px 15px ;
-            background-color: #3498db;
-
-            .imgDay {
-                width: 30px ;
-                height: 30px ;
-            }
-        }
-        .btnDay:hover {
-            background-color:#37a4ee ;
-        }
-
-        .btnNight {
-            width: 50px ;
-            height: 37px;
-            margin-left: -5px ;
-            border: none ;
-            border-radius: 0px 15px 15px 0px ;
-            background-color: #102F43;
-
-            .imgNight {
-                width: 30px ;
-                height: 30px ;
-            }
-        }
-        .btnNight:hover {
-            background-color:#17425d ;
-        }
+       @include btnModeDark ;
     }
 
     .containerMain {
-        margin-left: 50px ;
-        width: 1000px;
+        margin-left: 5% ;
+        width: 100%;
 
         .titleMain {
             font-family: sans-serif ;
@@ -70,7 +42,7 @@
         }
 
             .inputList {
-                width: 320px ;
+                width: 35% ;
                 height: 47px ;
                 display: inline ;
                 font-family: sans-serif ;
@@ -103,7 +75,7 @@
                 background-color: blue;
                 border: none;
                 border-radius: 5px ;
-                width: 250px ;
+                width: 26% ;
                 height: 50px ;
                 display: inline ;
 
@@ -124,7 +96,7 @@
                 border: none ;
                 border-radius: 5px ;
                 padding: 17px ;
-                width: 180px ;
+                width: 17% ;
 
                 .deleteListImg {
                     width: 15px ;
