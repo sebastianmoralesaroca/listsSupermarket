@@ -1,7 +1,7 @@
 
 let count = 0 ;
 function counter () {
-    countItem.innerHTML = count
+    textCountList2.innerHTML = count ;
 };
 
 
@@ -10,7 +10,7 @@ function addElement () {
     createDiv.id = "newDiv" ;
     const newDiv = document.getElementById("newDiv")
     contElement.appendChild(createDiv) ;
-    createDiv.style = "display:grid; grid-template-columns:5% 10% 30% 20% 10% 10% 5%; width:92%; height:70px; border: solid 2px blue; background-color:white; border-radius:15px; margin-bottom:15px; box-shadow: 3px 4px 3px 3px #d1d1d1;" ;
+    createDiv.style = "display:grid; grid-template-columns:5% 10% 30% 20% 10% 10% 5%; width:80%; height:70px; border: solid 2px blue; background-color:white; border-radius:15px; margin-bottom:15px; box-shadow: 3px 4px 3px 3px #d1d1d1;" ;
     
     const createAmaunt = document.createElement("h3") ;
     const valueEmaunt = numberList.value ;
@@ -27,7 +27,7 @@ function addElement () {
     const createCheck = document.createElement ("input") ;
     createCheck.type = "checkbox" ;
     createDiv.appendChild(createCheck) ;
-    createCheck.style = "grid-column:5; width:20px; height:20px; margin:auto;" ;
+    createCheck.style = "grid-column:6; width:20px; height:20px; margin:auto;" ;
     createCheck.addEventListener("click", () => {
         if (createCheck.checked) {
             createDiv.style = "display:grid; grid-template-columns:5% 10% 30% 20% 10% 10% 5%; width:92%; height:70px; border:none; background-color:#d1d1d1; border-radius:15px; margin-bottom:15px; box-shadow: 3px 4px 3px 3px #d1d1d1;" ;
@@ -42,7 +42,7 @@ function addElement () {
     const createDelete = document.createElement ("button") ;
     createDelete.type = "reset" ;
     createDiv.appendChild(createDelete) ;
-    createDelete.style = "grid-column:6; width:20px; height:20px; background:transparent; border:none; padding:0px; margin:auto;" ;
+    createDelete.style = "grid-column:7; width:20px; height:20px; background:transparent; border:none; padding:0px; margin:auto;" ;
     createDelete.addEventListener("click", () => {
         contElement.removeChild(createDiv) ;
         count = count - 1 ;
@@ -50,7 +50,7 @@ function addElement () {
     });
 
     const createImg = document.createElement ("img") ;
-    createImg.src = "../public/delete.png" ;
+    createImg.src = "../../public/delete.png" ;
     createDelete.appendChild(createImg) ;
     createImg.style = "width:20px; height:20px";
 };
@@ -67,8 +67,8 @@ addElementList.addEventListener("click", () => {
 
 
 deleteList.addEventListener("click", () => {
-    contElement.removeChild(newDiv) ;
-    count = count -1 ;
+    containerMain.removeChild(contElement) ;
+    count = 0 ;
     counter () ;
     console.log("Delete List") ;
 });

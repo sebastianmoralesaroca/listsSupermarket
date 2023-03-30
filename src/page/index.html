@@ -9,27 +9,30 @@
 <body id="body">
 <div class="contPrinsipal">
 	<nav class="menuNavigation" id="menuNavigation">
-		<img class="logo" src="../../public/logito.png" alt="">
+		<img class="logo" id="logo" src="../../public/logito.png" alt="">
 		<h2 class="titleNav" id="titleNav">List Market</h2>
-		<ul class="menuUl">
-			<li class="menuLi"><button class="btnLi" id="btnLiSupermarket"><img src="../../public/supermarkert.png" alt="" class="imgBtnLi"> Super Market</button></li>
-			<li class="menuLi"><button class="btnLi" id="btnLiNavidad"><img src="../../public/navidad.png" alt="" class="imgBtnLi"> Navidad</button></li>
-			<li class="menuLi"><button class="btnLi" id="btnLiSchool"><img src="../../public/school.png" alt="" class="imgBtnLi"> School</button></li>
-			<li class="menuLi"><button class="btnLi" id="btnLiOther"><img src="../../public/list.png" alt="" class="imgBtnLi"> Other List</button></li>
+		<ul class="menuUl" id="menuUl">
+			<li class="menuLi"><button class="btnLi" id="btnLiSupermarket"><img src="../../public/supermarkert.png" alt="supermarket" class="imgBtnLi"> Super Market</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiNavidad"><img src="../../public/navidad.png" alt="navidad" class="imgBtnLi"> Navidad</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiSchool"><img src="../../public/school.png" alt="school" class="imgBtnLi"> School</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiOther"><img src="../../public/list.png" alt="list" class="imgBtnLi"> Other List</button></li>
 		</ul>
 		<div class="contDownload" id="contDownload">
-			<img class="imgDownload" id="imgDownload" src="../../public/carritoDownload.png" alt="">
+			<img class="imgDownload" id="imgDownload" src="../../public/logoSupermarketDownload.png" alt="logo">
 			<h3 class="titleDownload" id="titleDownload">Download Your List</h3>
 			<p class="textDownload">Add and delete product your list of Supermarket and then download in your mobil</p>
 			<button class="btnDownload"><img class="btnImgDownload" src="../../public/download.png" alt="download"> Download List</button>
 		</div>
 	</nav>
 	<main class="main" id="main">
-		<img class="mainImg" id="mainImg" src="../../public/imgSupermarket.jpg" alt="">
-		<img class="logoMain" id="logoMain" src="../../public/carritoDownload.png" alt="">
+		<div class="contBurger">
+			<button class="btnMenuBurger" id="btnMenuBurger"><img class="imgMenuBurger" id="imgMenuBurger" src="../../public/menu-hamburguesa.png" alt=""></button>
+		</div>
+		<img class="mainImg" id="mainImg" src="../../public/imgSupermarket.jpg" alt="foto cavezera">
+		<img class="logoMain" id="logoMain" src="../../public/logoSupermarketMain.png" alt="logo">
 		<div class="divMoodDark" id="divMoodDark" >
-			<button class="btnDay" id="btnDay"><img class="imgDay" src="../../public/sol.png" alt=""></button>
-			<button class="btnNight" id="btnNight"><img class="imgNight" src="../../public/modo-nocturno.png" alt=""></button>
+			<button class="btnDay" id="btnDay"><img class="imgDay" src="../../public/sol.png" alt="mode dark"></button>
+			<button class="btnNight" id="btnNight"><img class="imgNight" src="../../public/modo-nocturno.png" alt="mode dark"></button>
 		</div>
 		<div class="containerMain" id="containerMain">
 			<h1 class="titleMain" id="titleMain">
@@ -39,8 +42,9 @@
 			</h1>
 			<input class="inputList" id="inputList" type="text" placeholder="  Add Element List">
 			<input class="numberList" id="numberList" type="number" placeholder="  Amount">
+			<span class="spanAdd"></span>
 			<button class="addElementList" id="addElementList" type="submit"><img class="addElementListImg" src="../../public/add.png" alt=""> Add Element List</button>
-			<button class="deleteList" id="deleteList"><img class="deleteListImg" src="../../public/trash.png" alt="">Delete Element</button>
+			<button class="deleteList" id="deleteList"><img class="deleteListImg" src="../../public/trash.png" alt="">Delete List</button>
 			<span class="spanbtn"></span>
 			<button class="elementList1" id="elementList1">Fruits<img class="imgElementList" id="imgSelection1" src="../../public/fruits.png" alt="Fruits"></button>
 			<button class="elemtntList2" id="elementList2">Vegetables<img class="imgElementList" id="imgSelection2" src="../../public/vegetables.png" alt="vegetales"></button>
@@ -54,13 +58,14 @@
 				<span class="textCountList2" id="textCountList2">0</span>
 				<span class="textCountList1">Elements!</span>
 			</p>
-			<span id="contElement"></span>
+			<div id="contElement"></div>
 		</div>
 	</main>
 </div>
 <script src="../js/utilities.js"></script>
 <script src="../js/elementById.js"></script>
 <script src="../js/moodDark.js"></script>
+<script src="../js/menuBurger.js"></script>
 <script src="../js/list.js"></script>
 <script src="../js/menu.js"></script>
 </body>

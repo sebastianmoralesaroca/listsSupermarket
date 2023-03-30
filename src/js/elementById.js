@@ -19,6 +19,8 @@ const elementList5 = document.getElementById("elementList5") ;
 const elementList6 = document.getElementById("elementList6") ;
 const elementList7 = document.getElementById("elementList7") ;
 const mainImg = document.getElementById("mainImg") ;
+const textCountList2 = document.getElementById("textCountList2") ;
+const btnMenuBurger = document.getElementById("btnMenuBurger") ;
 
 
 /*Mode Dark*/
@@ -37,6 +39,5 @@ const btnLiSchool = document.getElementById("btnLiSchool") ;
 const btnLiOther = document.getElementById("btnLiOther") ;
 const titleMain2 = document.getElementById("titleMain2") ;
 const imgDownload = document.getElementById("imgDownload") ;
-
-
-
+const logo = document.getElementById("logo") ;
+const menuUl = document.getElementById("menuUl") ;

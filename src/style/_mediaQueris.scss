@@ -3,6 +3,30 @@ $media-small: 575px;
 $media-medium: 990px;
 $media-tall: 1200px;
 
+// Media Desktop Small
+@media screen and (min-width: $media-medium) and (max-width: $media-tall) {
+    .contPrinsipal {
+        .menuNavigation {
+            .logo {
+                display: block ;
+                margin: auto;
+                margin-top: 35px ;
+            }
+            .titleNav {
+                margin-left: 16% ;
+            }
+        }
+        .main {
+            .containerMain {
+                .elementList7 {
+                    display: none ;
+                }
+            }
+        }
+    }
+}
+
+
 // Media Tablet
 @media screen and (min-width: $media-small) and (max-width: $media-medium) and (orientation:portrait) {
     .contPrinsipal {
@@ -11,6 +35,9 @@ $media-tall: 1200px;
     }
     .menuNavigation {
         display: none ;
+    }
+    .contBurger {
+        @include menuTheBurger ;
     }
     #divMoodDark {
         margin-left: 76%;
@@ -35,6 +62,15 @@ $media-tall: 1200px;
             width: 35.5%;
         }
     }
+    .elemtntList6 {
+        display: none ;
+    }
+    .elemtntList5 {
+        display: none ;
+    }
+    .elemtntList4 {
+        display: none ;
+    }
 }
 
 // Media Mobile Default
@@ -49,8 +85,8 @@ $media-tall: 1200px;
     #divMoodDark {
         display: none ;
     }
-    #btnMenuBurger {
-        position: relative;
+    .contBurger {
+        @include menuTheBurger ;
     }
     .mainImg {
     }
