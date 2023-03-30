@@ -57,6 +57,10 @@ function addElement () {
 
 
 
+function funDeleteList () {
+    containerMain.removeChild(contElement) ;
+    count = 0 ;
+}
 
 addElementList.addEventListener("click", () => {
     addElement () ;
@@ -67,8 +71,7 @@ addElementList.addEventListener("click", () => {
 
 
 deleteList.addEventListener("click", () => {
-    containerMain.removeChild(contElement) ;
-    count = 0 ;
+    funDeleteList () ;
     counter () ;
     console.log("Delete List") ;
 });

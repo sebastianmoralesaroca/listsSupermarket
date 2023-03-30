@@ -59,11 +59,13 @@ function funOther () {
 
 btnLiSupermarket.addEventListener("click", () => {
     funSupermarket () ;
+    funDeleteList () ;
     console.log ("theme Supermarket") ;
 })
 
 btnLiNavidad.addEventListener("click", function() {
     funNavidad () ;
+    funDeleteList () ;
     console.log ("Theme Navidad") ;
 })
 
@@ -71,11 +73,13 @@ btnLiNavidad.addEventListener("click", function() {
 
 btnLiSchool.addEventListener('click', () => {
     funSchool () ;
+    funDeleteList () ;
     console.log("Theme School") ;
 });
 
 
 btnLiOther.addEventListener('click', () => {
     funOther () ;
+    funDeleteList () ;
     console.log("Other School") ;
 });

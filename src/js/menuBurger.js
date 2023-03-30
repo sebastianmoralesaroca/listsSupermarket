@@ -1,5 +1,5 @@
 function funMenuDesplegado () {
-    menuNavigation.style = "display:block; position:absolute; z-index:5; background-color:whitesmoke; width:100%; text-align:center; margin-top:40px;"
+    menuNavigation.style = "display:block; position:absolute; z-index:5; background-color:whitesmoke; width:100%; height:840px; text-align:center; margin-top:40px;"
     logo.style = "margin-left:0px; width:40px; height:40px;" ;
     titleNav.style = "font-size:30px;"
     menuUl.style = "width:90%; padding-left:4%;" ;
