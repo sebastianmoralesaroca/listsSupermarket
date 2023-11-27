@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./src/style/style.css">
+	<title>List Supermerket</title>
+</head>
+<body id="body">
+<div class="contPrinsipal">
+	<nav class="menuNavigation" id="menuNavigation">
+		<img class="logo" id="logo" src="./public/logito.png" alt="">
+		<h2 class="titleNav" id="titleNav">List Market</h2>
+		<ul class="menuUl" id="menuUl">
+			<li class="menuLi"><button class="btnLi" id="btnLiSupermarket"><img src="./public/supermarkert.png" alt="supermarket" class="imgBtnLi"> Super Market</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiNavidad"><img src="./public/navidad.png" alt="navidad" class="imgBtnLi"> Navidad</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiSchool"><img src="./public/school.png" alt="school" class="imgBtnLi"> School</button></li>
+			<li class="menuLi"><button class="btnLi" id="btnLiOther"><img src="./public/list.png" alt="list" class="imgBtnLi"> Other List</button></li>
+		</ul>
+		<div class="contDownload" id="contDownload">
+			<img class="imgDownload" id="imgDownload" src="./public/logoSupermarketDownload.png" alt="logo">
+			<h3 class="titleDownload" id="titleDownload">Download Your List</h3>
+			<p class="textDownload">Add and delete product your list of Supermarket and then download in your mobil</p>
+			<button class="btnDownload"><img class="btnImgDownload" src="./public/download.png" alt="download"> Download List</button>
+		</div>
+	</nav>
+	<main class="main" id="main">
+		<div class="contBurger">
+			<button class="btnMenuBurger" id="btnMenuBurger"><img class="imgMenuBurger" id="imgMenuBurger" src="../../public/menu-hamburguesa.png" alt=""></button>
+		</div>
+		<img class="mainImg" id="mainImg" src="./public/imgSupermarket.jpg" alt="foto cavezera">
+		<img class="logoMain" id="logoMain" src="./public/logoSupermarketMain.png" alt="logo">
+		<div class="divMoodDark" id="divMoodDark" >
+			<button class="btnDay" id="btnDay"><img class="imgDay" src="./public/sol.png" alt="mode dark"></button>
+			<button class="btnNight" id="btnNight"><img class="imgNight" src="./public/modo-nocturno.png" alt="mode dark"></button>
+		</div>
+		<div class="containerMain" id="containerMain">
+			<h1 class="titleMain" id="titleMain">
+				<span class="titleMain1">Your List</span>
+				<span class="titleMain2" id="titleMain2">Supermarket</span>
+				<span class="titleMain3">Here</span>
+			</h1>
+			<input class="inputList" id="inputList" type="text" placeholder="  Add Element List">
+			<input class="numberList" id="numberList" type="number" placeholder="  Amount">
+			<span class="spanAdd"></span>
+			<button class="addElementList" id="addElementList" type="submit"><img class="addElementListImg" src="./public/add.png" alt=""> Add Element List</button>
+			<button class="deleteList" id="deleteList"><img class="deleteListImg" src="./public/trash.png" alt="">Delete List</button>
+			<span class="spanbtn"></span>
+			<button class="elementList1" id="elementList1">Fruits<img class="imgElementList" id="imgSelection1" src="./public/fruits.png" alt="Fruits"></button>
+			<button class="elemtntList2" id="elementList2">Vegetables<img class="imgElementList" id="imgSelection2" src="./public/vegetables.png" alt="vegetales"></button>
+			<button class="elemtntList3" id="elementList3">Dairy<img class="imgElementList" id="imgSelection3" src="./public/dairy.png" alt="dairy"></button>
+			<button class="elemtntList4" id="elementList4">Bread<img class="imgElementList" id="imgSelection4" src="./public/bread.png" alt="Bread"></button>
+			<button class="elemtntList5" id="elementList5">Sweets<img class="imgElementList" id="imgSelection5" src="./public/sweets.png" alt="sweets"></button>
+			<button class="elemtntList6" id="elementList6">Meat<img class="imgElementList" id="imgSelection6" src="./public/meat.png" alt="meat"></button>
+			<button class="elementList7" id="elementList7">Clearning<img class="imgElementList" id="imgSelection7" src="./public/cleaning.png" alt="clearning"></button>
+			<p>
+				<span class="textCountList1">Your List count</span>
+				<span class="textCountList2" id="textCountList2">0</span>
+				<span class="textCountList1">Elements!</span>
+			</p>
+			<div id="contElement"></div>
+		</div>
+	</main>
+</div>
+<script src="./src/js/utilities.js"></script>
+<script src="./src/js/elementById.js"></script>
+<script src="./src/js/moodDark.js"></script>
+<script src="./src/js/menuBurger.js"></script>
+<script src="./src/js/list.js"></script>
+<script src="./src/js/menu.js"></script>
+</body>
+</html>
